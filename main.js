@@ -1,4 +1,4 @@
-const buttonClick = document.querySelector("#button");
+var buttonClick = document.getElementById("button");
 buttonClick.addEventListener("click", onClickItem);
 
 function onClickItem(evt){
@@ -7,4 +7,7 @@ function onClickItem(evt){
           return;
           
   }
+  alert('Кнопка натиснута');
 }
+
+
